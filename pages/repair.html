@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>设施报修 - 龙源实验学校</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<div class="bg-primary text-white py-2 px-4">
+    <h5 class="mb-0">濮阳市第一中学龙源实验学校</h5>
+</div>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <div class="container">
+        <a class="navbar-brand text-primary fw-bold" href="../index.html">🏫 返回首页</a>
+    </div>
+</nav>
+
+<div class="container py-5">
+    <h3 class="text-center mb-4">校园设施线上报修</h3>
+    <div class="form-box card p-4 shadow">
+        <form id="repairForm">
+            <div class="mb-3">
+                <label class="form-label">姓名/班级</label>
+                <input type="text" class="form-control" placeholder="例：初一1班 张三" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">故障位置</label>
+                <input type="text" class="form-control" placeholder="教学楼3楼302教室/宿舍楼2栋" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">故障类型</label>
+                <select class="form-select" required>
+                    <option value="">请选择</option>
+                    <option>电灯/电路损坏</option>
+                    <option>门窗桌椅损坏</option>
+                    <option>水龙头/下水道堵塞</option>
+                    <option>多媒体设备故障</option>
+                    <option>空调风扇故障</option>
+                    <option>卫生间设施</option>
+                    <option>其他</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">问题详细描述</label>
+                <textarea class="form-control" rows="4" required placeholder="简单描述故障情况"></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">联系电话</label>
+                <input type="tel" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">提交报修</button>
+            <p class="text-secondary mt-2 text-center">提示：纯静态页面仅模拟提交，正式使用需后端存储工单</p>
+        </form>
+    </div>
+</div>
+
+<footer class="bg-dark text-white py-3 mt-5 text-center">
+    <small>濮阳市第一中学龙源实验学校</small>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
