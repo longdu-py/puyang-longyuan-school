@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f7f9fc;
+    font-family: "Microsoft Yahei", SimHei, sans-serif;
+}
+.card {
+    transition: 0.25s all ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0,50,150,0.12);
+}
+.carousel-item {
+    border-radius: 10px;
+}
+.form-box {
+    max-width: 720px;
+    margin: 0 auto;
+}
+footer {
+    margin-top: 60px;
+}
